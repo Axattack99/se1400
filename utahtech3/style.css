@@ -14,6 +14,7 @@ header h1{
 }
 nav{
     background-color: #F3F3F3;
+    font-weight: bold;
 }
 h2{
     color: #424242;
@@ -23,7 +24,7 @@ dt{
     font-weight: bold;
     color: #003058;
 }
-#ut{
+.ut{
     color: #BA1C21;
     font-weight: bold;
 }
@@ -34,6 +35,6 @@ footer{
 }
 #wrapper{
     width: 80%;
-    margin-right: 80% auto;
     margin-left: auto;
+    margin-right: 80% auto;
 }
