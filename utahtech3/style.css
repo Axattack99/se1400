@@ -13,8 +13,9 @@ header{
     line-height: 140%;
     padding: .5rem;
     background-image: url(utahtechlogo.svg);
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 100px;
     padding-left: 1em;
     background-origin: content-box;
     margin-bottom: 0;
@@ -61,20 +62,23 @@ main{
     padding-left: 2rem;
 }
 #homehero{
+    background-image: url(homehero.jpg);
     height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#studentshero{
+#studenthero{
+    background-image: url(studenthero.jpg);
     height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #facultyhero{
+    background-image: url(facultyhero.jpg);
     height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
