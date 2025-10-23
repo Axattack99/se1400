@@ -81,7 +81,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    grid-row: 3/4; grid-column: 2/8;
+    grid-row: 3/4; grid-column: 1/9;
     
 }
 #main_img{
@@ -94,7 +94,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    grid-row: 3/4; grid-column: 2/8;
+    grid-row: 3/4; grid-column: 1/9;
 }
 nav a{
     color: #ffffff;
@@ -138,6 +138,7 @@ nav a:hover{
 @media only screen and (max-width: 900px) {
     nav{
         grid-row: 2/3; grid-column: 1/5;
+        position: static;
 
     }
     nav ul{
