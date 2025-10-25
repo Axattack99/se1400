@@ -149,6 +149,8 @@ input:focus, textarea:focus{
 label{
     padding: 10px;
     text-align: right;
+    grid-column: 1/2;
+    display: inline-block
 }
 #mySubmit{
     width: 10rem;
