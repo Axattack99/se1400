@@ -82,7 +82,14 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: 3/4; grid-column: 1/9;
-    
+}
+#homehero{
+    background-image: url(homehero.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 3/4; grid-column: 1/9;
 }
 #main_img{
     float: right;
@@ -156,6 +163,7 @@ label{
     width: 10rem;
     grid-column: 2/3;
 }
+
 @media only screen and (max-width: 1200px) {
     #wrapper{
         display: grid;
@@ -172,7 +180,7 @@ label{
     nav ul{
         flex-flow: column nowrap;
     }
-    #alumnihero, #studenthero, #facultyhero{
+    #alumnihero, #studenthero, #facultyhero, #homehero{
         grid-row: 2/3; grid-column: 5/8;
         height: auto;
     }
@@ -191,7 +199,7 @@ label{
     nav{
         grid-row: 2/3; grid-column: 1/9;
     }
-    #alumnihero, #studenthero, #facultyhero{
+    #alumnihero, #studenthero, #facultyhero, #homehero{
         display: none;
     }
 }
