@@ -179,7 +179,9 @@ td{
 .text{
     text-align: left;
 }
-
+table tr:nth-of-type(odd){
+    background: #f3f3f3;
+}
 @media only screen and (max-width: 1200px) {
     #wrapper{
         display: grid;
