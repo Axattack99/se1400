@@ -84,6 +84,14 @@ main{
     grid-row: 3/4; grid-column: 1/9;
     
 }
+#homehero{
+    background-image: url(homehero.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 3/4; grid-column: 1/9;
+}
 #main_img{
     float: right;
     padding-left: 2rem;
