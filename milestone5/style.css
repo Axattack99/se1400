@@ -1,13 +1,15 @@
+*{
+    background-color: lightskyblue;
+}
 .parent {
 display: grid;
 grid-template-columns: minmax(0px,0.35fr) repeat(6,minmax(0px,1fr)) minmax(0px,0.35fr);
 grid-template-rows: 0.1fr 0.75fr 0.1fr 1fr 0.1fr;
 grid-column-gap: 0px;
 grid-row-gap: 50px;
-border: 1px solid black;
+border: 2px solid black;
 height: 1600px;
 word-wrap: break-word;
-background-color: lightskyblue;
 }
 
 .div1 { grid-area: 1 / 1 / 8 / 1; 
@@ -50,7 +52,7 @@ gap: 15px;
 }
 .div4 h3 {
     text-align: justify;
-    margin-right: 8rem;
+    margin-right: 4rem;
     font-size: 1.4rem;
 }
 span h3{
@@ -60,7 +62,7 @@ span h3{
 }
 #First{
     float: left;
-    padding-left: 4rem;
+    padding-left: 1rem;
     padding-top: 2rem;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 7%;
@@ -68,21 +70,21 @@ span h3{
     border-top-right-radius: 25%;
 }
 #Second{
-    padding-left: 4rem;
+    padding-left: 1rem;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 7%;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
 }
 #Third{
-    padding-left: 4rem;
+    padding-left: 1rem;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 7%;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
 }
 #Fourth{
-    padding-left: 4rem;
+    padding-left: 1rem;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 7%;
     border-top-left-radius: 25%;
