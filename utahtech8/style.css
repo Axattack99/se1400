@@ -109,6 +109,7 @@ nav a{
     display: block;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 header a{
     text-decoration: none;
@@ -182,6 +183,10 @@ td{
 table tr:nth-of-type(odd){
     background: #f3f3f3;
 }
+video{
+    float: right;
+    margin-left: 2rem;
+}
 @media only screen and (max-width: 1200px) {
     #wrapper{
         display: grid;
@@ -205,6 +210,12 @@ table tr:nth-of-type(odd){
     #main_img{
         float: none;
         padding-left: 0px;
+        width: 100%;
+        height: auto;
+    }
+    video{
+        float: none;
+        margin-left: 0;
         width: 100%;
         height: auto;
     }
