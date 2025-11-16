@@ -103,6 +103,14 @@ main{
     background-size: cover;
     grid-row: 3/4; grid-column: 1/9;
 }
+#shophero{
+    background-image: url(shophero.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 3/4; grid-column: 1/9;
+}
 nav a{
     color: #ffffff;
     padding: 1rem 0rem;
@@ -187,6 +195,14 @@ video{
     float: right;
     margin-left: 2rem;
 }
+#shoppingcart img{
+    width: 100%;
+    height: auto;
+}
+#shoppingcart{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 @media only screen and (max-width: 1200px) {
     #wrapper{
         display: grid;
@@ -203,7 +219,7 @@ video{
     nav ul{
         flex-flow: column nowrap;
     }
-    #alumnihero, #studenthero, #facultyhero, #homehero{
+    #alumnihero, #studenthero, #facultyhero, #homehero, #shophero{
         grid-row: 2/3; grid-column: 5/8;
         height: auto;
     }
@@ -219,6 +235,9 @@ video{
         width: 100%;
         height: auto;
     }
+    #shoppingcart{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media only screen and (max-width: 600px) {
     header h1{
@@ -228,7 +247,10 @@ video{
     nav{
         grid-row: 2/3; grid-column: 1/9;
     }
-    #alumnihero, #studenthero, #facultyhero, #homehero{
+    #alumnihero, #studenthero, #facultyhero, #homehero, #shophero{
         display: none;
+    }
+    #shoppingcart{
+        grid-template-columns: 1fr;
     }
 }
