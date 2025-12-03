@@ -157,7 +157,8 @@ nav a :hover{
         width: 100%;
     }
     .div6{
-        display: flex table-column;
+        display: flex;
+        flex-direction: column;
         gap: 7px;
     }
 }
