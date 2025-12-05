@@ -4,6 +4,7 @@
 }
 body{
     background: linear-gradient(to bottom, lightskyblue, orange);
+    font-family: 'MyCustomFont', Arial, sans-serif;
 }
 .parent {
 display: grid;  
@@ -142,11 +143,19 @@ nav a{
     gap: 1rem;
 }
 nav a :hover{
-    background-color: orange;
+    background: linear-gradient(to bottom, lightskyblue, orange);
     transition: background-color 0.5s ease;
 }
 .para2{
     flex: 1;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Transformers\ Movie.woff2') format('woff2'),
+         url('Transformers\ Movie.woff') format('woff'),
+         url('Transformers\ Movie.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @media (max-width: 950px) {
     .div4{
