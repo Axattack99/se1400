@@ -49,6 +49,7 @@ gap: 15px;
 }
 .div3 h2 {
   text-align: center;
+  margin: 0;
 }
 .div4 h3 {
     text-align: justify;
@@ -88,6 +89,17 @@ gap: 15px;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
 }
+#Sisyfall{
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 7%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    float: left;
+}
+.Sisyphus :hover{
+    transform: translateX(800px);
+    transition: transform 10s ease;
+}
 .div5 h2{
     background-color: blue;
     border: 3px solid white;
@@ -111,10 +123,9 @@ gap: 15px;
     border-bottom-right-radius: 20%;
     border-top-left-radius: 17%;
     border-top-right-radius: 9%;
-    padding: 30px;
+    padding: 36px;
     margin: 0;
 }
-
 footer{
         font-size: 1rem;
     text-align: center;
@@ -171,6 +182,10 @@ nav a :hover{
         flex-direction: column;
         gap: 7px;
     }
+    .Sisyphus :hover{
+    transform: translateX(620px);
+    transition: transform 10s ease;
+}
 }
 @media (max-width: 850px) {
     .div4 h3{
@@ -180,6 +195,10 @@ nav a :hover{
         font-size: 0.9rem;
         padding: 5px;
     }
+    .Sisyphus :hover{
+    transform: translateX(500px);
+    transition: transform 10s ease;
+}
 }
 @media (max-width: 770px){
     img, picture{
@@ -190,6 +209,10 @@ nav a :hover{
         display: flex;
         flex-direction: column;
     }
+    .Sisyphus :hover{
+    transform: translateX(450px);
+    transition: transform 10s ease;
+}
 }
 @media (max-width: 470px){
     nav ul{
@@ -205,5 +228,5 @@ nav a :hover{
     }
     iframe{
         display: none;
-    }
+}
 }
